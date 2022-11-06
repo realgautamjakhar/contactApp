@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700;800&display=swap');
+
+*,*::before,*::after{
+      margin: 0;
+      box-sizing: border-box;
+      font-family: 'Outfit', sans-serif;
+      scroll-behavior: smooth;
+}
+
+#root{
+      max-height: 100vh;
+      background-image: url(assets/contactAppbg.svg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding: 2rem;
+}
+::-webkit-scrollbar{
+      width: 10px;
+}
+::-webkit-scrollbar-track{
+      background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+      width: 10px;
+      border-radius: 50px;
+      background-color: #6455FF;}
